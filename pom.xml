@@ -40,7 +40,7 @@
     </properties>  
   
     <!-- maven打成war包放到tomcat目录下，即可运行 -->  
-    <build>  
+<!--     <build>  
         <finalName>SSH01</finalName>  
   <plugins>
         <plugin>
@@ -53,7 +53,7 @@
             </configuration>
         </plugin>
     </plugins>
-    </build>  
+    </build>  --> 
   
     <dependencies><!-- 这个元素描述了所有与当前项目相关的依赖 -->  
         <!-- junit -->  
@@ -103,21 +103,21 @@
         <dependency>  
             <groupId>com.alibaba</groupId>  
             <artifactId>fastjson</artifactId>  
-            <version>1.1.26</version>  
+            <version>1.1.41</version>  
         </dependency>  
           
         <!-- 使用 Jackson 把 Java 对象转换成 JSON 字串 -->  
         <dependency>  
             <groupId>org.codehaus.jackson</groupId>  
             <artifactId>jackson-mapper-asl</artifactId>  
-            <version>1.9.11</version>  
+            <version>1.9.13</version>  
         </dependency>  
           
         <!-- mysql数据库驱动 -->  
         <dependency>  
             <groupId>mysql</groupId>  
             <artifactId>mysql-connector-java</artifactId>  
-            <version>5.1.21</version>  
+            <version>5.1.30</version>  
         </dependency>  
   
         <!-- druid -->  
@@ -160,49 +160,49 @@
         <dependency>  
             <groupId>org.springframework</groupId>  
             <artifactId>spring-webmvc</artifactId>  
-            <version>3.2.0.RELEASE</version>  
+            <version>4.0.2.RELEASE</version>  
         </dependency>  
           
         <!-- spring3 -->  
         <dependency>  
             <groupId>org.springframework</groupId>  
             <artifactId>spring-core</artifactId>  
-            <version>3.2.0.RELEASE</version>  
+            <version>4.0.2.RELEASE</version>  
         </dependency>  
         <dependency>  
             <groupId>org.springframework</groupId>  
             <artifactId>spring-context</artifactId>  
-            <version>3.2.0.RELEASE</version>  
+            <version>4.0.2.RELEASE</version>  
         </dependency>  
         <dependency>  
             <groupId>org.springframework</groupId>  
             <artifactId>spring-jdbc</artifactId>  
-            <version>3.2.0.RELEASE</version>  
+            <version>4.0.2.RELEASE</version>  
         </dependency>       
         <dependency>  
             <groupId>org.springframework</groupId>  
             <artifactId>spring-beans</artifactId>  
-            <version>3.2.0.RELEASE</version>  
+            <version>4.0.2.RELEASE</version>  
         </dependency>  
         <dependency>  
             <groupId>org.springframework</groupId>  
             <artifactId>spring-web</artifactId>  
-            <version>3.2.0.RELEASE</version>  
+            <version>4.0.2.RELEASE</version>  
         </dependency>  
         <dependency>  
             <groupId>org.springframework</groupId>  
             <artifactId>spring-expression</artifactId>  
-            <version>3.2.0.RELEASE</version>  
+            <version>4.0.2.RELEASE</version>  
         </dependency>  
         <dependency>  
             <groupId>org.springframework</groupId>  
             <artifactId>spring-orm</artifactId>  
-            <version>3.2.0.RELEASE</version>  
+            <version>4.0.2.RELEASE</version>  
         </dependency>  
         <dependency>  
             <groupId>org.springframework</groupId>  
             <artifactId>spring-test</artifactId>  
-            <version>3.2.0.RELEASE</version>  
+            <version>4.0.2.RELEASE</version>  
         </dependency>  
           
     </dependencies>  
